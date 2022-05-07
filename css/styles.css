@@ -8,12 +8,21 @@ ul {
     list-style: none;
     text-decoration: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .header-container {
     display: flex;
@@ -29,9 +38,7 @@ display: flex;
     padding: 0;
     margin: 0;
 }
-h1,h2,h3,h4,h5,h6,p {
-    margin: 0;
-}
+
 .logo {
 margin-right: 93px;
 color: #212121;
@@ -110,10 +117,19 @@ text-decoration: none;
 color: #757575;
 }
 
-.hero {
-
+.filters-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.fl-item {
+    margin-right: 8px;
+}
+.ft-item:last-child {
+    margin-right: 0px;
 }
 .filters {
+    display: flex;
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -128,6 +144,7 @@ color: #212121;
     font-family: inherit;
 }
 .button.primary {
+    padding: 6px 22px;
     background: #2196F3; 
     color: #F5F4FA;   
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -140,9 +157,11 @@ color: #212121;
     font-family: inherit;
     text-align: center;
     letter-spacing: 0.03em;
+    border: 0;
  
 }
 .button.secondary {
+    padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
@@ -151,7 +170,7 @@ color: #212121;
     font-family: inherit;
     text-align: center;
     letter-spacing: 0.03em;
-    
+    border: 0;
     color: #212121;
 }
 .button:hover,
@@ -159,9 +178,30 @@ color: #212121;
     background-color:  #2196F3;
     color: #F5F4FA;
     font-family: inherit;
+    border: 0;
 }
 .pg {
 text-decoration: none;
+}
+.main-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+.cnt {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    
+}
+.cnt .item{
+    margin-right: 30px;
+    width: 370px;
+    margin-bottom: 30px;
+   
+}
+.cnt .item:nth-child(3n) {
+margin-right: 0;
 }
 
 .footer {
