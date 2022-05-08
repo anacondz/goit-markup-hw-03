@@ -29,6 +29,7 @@ img {
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-cont {
 margin-left: auto;
@@ -198,6 +199,7 @@ text-decoration: none;
     margin-right: 30px;
     width: 370px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
    
 }
 .cnt .item:nth-child(3n) {
@@ -211,11 +213,14 @@ margin-right: 0;
     font-size: 18px;
     line-height: 2px;    
     letter-spacing: 0.06em;
-    
+        margin-top: 20px;
+            margin-bottom: 4px;
+            margin-left: 24px;
     color: #212121;
 }
 .desc-p {
-
+    margin-left: 24px;
+    margin-bottom: 20px;
     line-height: 30px;    
     letter-spacing: 0.03em;
     
@@ -289,49 +294,75 @@ text-decoration: none;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    
+        margin-left: auto;
+            margin-right: auto;
     color: #212121;
+    margin-bottom: 50px;
+}
+.container-resh {
+   
 }
 .zagolovok {
-   
+width: 696px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 .usluga,
 .usluga:hover {
    
     font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background-color: #2196F3;
+        color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 200px;
+        width: 200px;
+        height: 50px;
+        justify-content: center;
+            border-radius: 4px;
+                box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}
+.container-osob {
     
+    width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.nashi-osob {
     display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    margin-right: 30px;
 }
 .osobenosti {
 
     }
     .ft1 {
-
+margin-right: 30px;
     }
     .ft2 {
-
+margin-right: 30px;
     }
     .ft3 {
-
+margin-right: 30px;
     }
     .ft4 {
+        margin-right: 0;
     }
 .zag {
     font-weight: 700;
@@ -350,8 +381,12 @@ text-decoration: none;
     
     color: #757575;
 }
-.zanimaemsya {
-
+.container-zanim {
+    padding-bottom: 94px;
+}
+.pic {
+    display: flex;
+    justify-content: center;
 }
 .nasha {
    
@@ -360,17 +395,25 @@ text-decoration: none;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    
+        margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 50px;
     color: #212121;
 }
+.container-komanda {
+    width: 1200px;
+        margin-right: auto;
+            margin-left: auto;
+}
+.rebyata {
+    display: flex;
+    justify-content: space-between;
+}
 .box1 {
-   
+   margin-right: 30px;
     }
 .box2 {
-
-}
-.box3 {
-
+    margin-right: 0;
 }
 .komanda {
    
@@ -384,7 +427,9 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
 }
+
 .tm2 {
 
 background: #FFFFFF;
@@ -417,7 +462,7 @@ border-radius: 0px 0px 4px 4px;
     
     text-align: center;
     letter-spacing: 0.03em;
-    
+    margin-top: 30px;
     color: #212121;
 }
 .tm-p {
@@ -426,5 +471,5 @@ border-radius: 0px 0px 4px 4px;
     
     text-align: center;
     letter-spacing: 0.03em;
-    
-    color: #757575;
+    margin-bottom: 30px;
+        color: #757575; }
