@@ -10,7 +10,7 @@ h3,
 h4,
 p,
 ul,
-li,
+li
  {
     margin: 0;
 }
@@ -41,8 +41,8 @@ img {
 }
 .header {
     border-bottom: 1px solid #ECECEC;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .header-cont {
@@ -128,7 +128,7 @@ color: #212121;
 }
 .mail {
 
-font-weight: 500px;
+font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -146,9 +146,7 @@ color: #757575;
 }
 
 .filters-container {
-display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
 }
 .fl-item {
     margin-right: 8px;
@@ -158,14 +156,8 @@ display: flex;
 }
 .filters {
     display: flex;
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.03em;
-margin: 0;
-padding-bottom: 50px;
-
+margin-bottom: 50px;
+justify-content: center;
 color: #212121;
 }
 .button {
@@ -257,15 +249,19 @@ margin-right: 0;
     color: #757575;
 }
 .pic2 {
-border: 1px solid #EEEEEE;
+border-top: none;
+    border: 1px solid #EEEEEE;
 padding: 20px 24px;
 }
 .footer-container{
        
 }
 .ft-item {
-    margin: 0;
+    margin-bottom: 9px;
     padding: 0;
+}
+.ft-item:last-child {
+    margin-bottom: 0;
 }
 .add-r {
     margin: 0;
@@ -315,6 +311,8 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-decoration: none;
+display:block;
+margin-bottom: 20px;
 
 }
 .accent-logo1 {
@@ -335,9 +333,9 @@ text-decoration: none;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+        margin-bottom: 50px;
     color: #212121;
-    margin:0;
+    
 }
 .container-resh {
    
@@ -355,6 +353,7 @@ width: 696px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
     
 }
 .usluga,
@@ -406,7 +405,7 @@ width: 270px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    margin-bottom: 10px;
     color: #212121;
 }
 .zag-text {
@@ -431,13 +430,13 @@ width: 270px;
     padding: 0;
 }
 .nasha {
-padding-bottom: 50px;
+margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-        margin: 0;
+       
     color: #212121;
 }
 .container-komanda {
@@ -502,7 +501,7 @@ border-radius: 0px 0px 4px 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    
+    margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
    
