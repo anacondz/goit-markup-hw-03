@@ -82,11 +82,11 @@ text-decoration: none;
    margin: 0;
    padding-left: 0;
 }
-.header-studio .studio1:nth-last-child(3n) {
-margin-right: 0;
+.header-studio .studio1:not(:last-child) {
+margin-right: 50px;
 }
 .studio {
-    margin-right: 50px;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -100,7 +100,7 @@ margin-right: 0;
 }
 .header-portfolio {
 
-margin-right: 50px;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
